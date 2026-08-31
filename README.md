@@ -18,8 +18,6 @@ Welcome to the **TCM Security** offensive and defensive cybersecurity repository
 |---|---|---|
 | 📂 [**Practical Ethical Hacking (PEH)**](./Practical%20Ethical%20Hacking/README.md) | Flagship ethical hacking curriculum: 21 modules covering Networking, OSINT, Scanning, Active Directory (Initial $\rightarrow$ Domain Compromise), Web App Pentesting, Wireless, and 5 Capstone Machines. | ✅ **Completed Track** (Notes & Lab Proofs) |
 | 📂 [**Linux Privilege Escalation**](./Linux%20Privilege%20Escalation/README.md) | Comprehensive local privilege escalation curriculum: 12 modules covering System Enumeration, Kernel Exploits, Sudo Misconfigurations (`LD_PRELOAD`), SUID Binaries, POSIX Capabilities, Cron Wildcards, NFS `no_root_squash`, Docker Escapes, and 3 Capstone Machines. | ✅ **Completed Track** (Notes & Lab Proofs) |
-| 📂 **OSINT (Open Source Intelligence)** | *Search engine dorking, sock puppets, image/EXIF analysis, geolocation, and credential exposure analysis.* | 🔄 *In Progress / Upcoming* |
-| 📂 **Practical Bug Bounty** | *Web vulnerability research, recon automation, API security, and vulnerability disclosure programs.* | 🔄 *In Progress / Upcoming* |
 
 ---
 
