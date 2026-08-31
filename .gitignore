@@ -1,0 +1,15 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and log files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class

@@ -1,0 +1,100 @@
+# 🛡️ Basic Bypass - Lab 1
+
+> **Course:** [Practical Ethical Hacking](../../README.md)  
+> **Module:** [Common Web Vulnerabilities](./README.md)  
+> **Navigation Path:** `Practical Ethical Hacking > Common Web Vulnerabilities > Basic Bypass - Lab 1`
+
+---
+
+## 🎯 Executive Summary & Technical Objectives
+This document details the practical methodology, tooling, exploitation chain, and defensive remediation for **Basic Bypass - Lab 1** as conducted in the TCM Security lab environment.
+
+---
+
+## 🔬 Hands-On Walkthrough & Technical Evidence
+
+
+basic funtionality: We have to upload and it will show which file are uploaded
+
+
+![Lab Execution Screenshot / Proof of Exploit](./assets/253_Basic_Bypass_-_Lab_1_1cdd64c5-e0cb-8058-abbc-e4e6a5876d75.png)
+*Figure: Lab Execution Screenshot / Proof of Exploit*
+
+
+Tried to upload a text file but got an error
+
+
+![Lab Execution Screenshot / Proof of Exploit](./assets/254_Basic_Bypass_-_Lab_1_1cdd64c5-e0cb-808a-a37f-eb0ab1de5071.png)
+*Figure: Lab Execution Screenshot / Proof of Exploit*
+
+
+Opened dev tools and went to the network section
+Tired to upload the text file again, but this time looking for system calls on the web server
+No checks were found
+
+
+![Lab Execution Screenshot / Proof of Exploit](./assets/255_Basic_Bypass_-_Lab_1_1cdd64c5-e0cb-8025-a132-cfdbd6f1e95d.png)
+*Figure: Lab Execution Screenshot / Proof of Exploit*
+
+This means the check is happening on the client side
+We have full control over the client side 
+We can just disable JS and the check will not happen OR we can intercept the request and change the file
+
+In this we going to intercept using burp
+We upload a img while the burp proxy is on and then send the req to the repeater
+Get rid of the img data
+Put a simple text 
+Change the file name to txt
+We got the response that the txt file was uploaded and it reflected on the site as well
+
+
+![Lab Execution Screenshot / Proof of Exploit](./assets/256_Basic_Bypass_-_Lab_1_1ced64c5-e0cb-80f8-845c-d1dba01d9e7f.png)
+*Figure: Lab Execution Screenshot / Proof of Exploit*
+
+There maybe blocklists that might block php files so its always better to do more testing
+
+We then craft our payload
+
+```php
+<?php system($_GET['cmd']); ?>
+```
+- system(): This function executes an external program and displays the output.- $_GET['cmd']: This retrieves the value of the cmd parameter from the URL query string.Security Implications
+This code allows an attacker to execute arbitrary system commands by passing them as a query parameter. For example:
+
+```bash
+http://example.com/vulnerable.php?cmd=ls
+```
+
+Change the file name to an executable
+In this changed it to cmd.php 
+(.php for executable)
+
+Now we hav to find out where the file is 
+We used ffuf to search for directories
+
+
+![Lab Execution Screenshot / Proof of Exploit](./assets/257_Basic_Bypass_-_Lab_1_1ced64c5-e0cb-80b7-8d42-c6decd34a91c.png)
+*Figure: Lab Execution Screenshot / Proof of Exploit*
+
+Found the location and did RCE
+
+
+![Lab Execution Screenshot / Proof of Exploit](./assets/258_Basic_Bypass_-_Lab_1_1ced64c5-e0cb-8089-9a72-fdc07b454f09.png)
+*Figure: Lab Execution Screenshot / Proof of Exploit*
+
+
+Have been told to upload or find a reverse shell on own for fun
+
+
+
+
+
+---
+
+## 🛡️ Defensive Hardening & Detection Signatures
+- **Monitoring & Auditing:** Enable granular auditing for process creation (Windows Event ID 4688 / Sysmon Event 1) and network connections (Sysmon Event 3).
+- **Least Privilege:** Enforce strict principle of least privilege across user accounts and service configurations.
+- **Continuous Validation:** Conduct routine vulnerability scanning and automated configuration reviews to identify drift.
+
+---
+[⬅ Back to Common Web Vulnerabilities](./README.md) • [🏠 Master Course Index](../README.md)
