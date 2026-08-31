@@ -32,7 +32,7 @@ For this there is already files which are there in the file we extracted the cou
 
 Can find other exploit for remote code execution in payloadforall things github
 
-This is not smthing we find often but it is good to test for if u see the target accepting xml
+This is not smthing we find often but it is good to test for if you see the target accepting xml
 
 Also sending xml data through api endpoints which accepts JSONs, as sometimes they will also accept xml and then after further testing can find out that the endpoint is vulnerable
 

@@ -27,7 +27,7 @@ Can do brute force directory busting (won't work but good methodology to hav)
 
 In vid - brute force login using brupsuit using cluster bomb (jenkins:jenkins)
 
-Grovy exploit search on git n thn copy paste on script console in jenkins 
+Grovy exploit search on git n then copy paste on script console in jenkins 
 Set up a listener using nc 
 Download winpeas x64
 to bring it to target machine
@@ -52,7 +52,7 @@ Use msfvenom  to generate a payload
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 Use certutil to transfer it 
-If u run it directly it's not use because u wil gain access as normal user not admin
+If you run it directly it's not use because you wil gain access as normal user not admin
 To gain access for admin stop the server first and the restart
 
 Use command 

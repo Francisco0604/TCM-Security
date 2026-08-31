@@ -30,7 +30,7 @@ then we do this
 
 
 then we give it +s by using chmod 
-then we jst need to execute tht file
+then we just need to execute that file
 ./x
 And we are root
 

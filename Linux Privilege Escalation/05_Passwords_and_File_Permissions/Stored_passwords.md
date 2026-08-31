@@ -14,7 +14,7 @@ This section covers the methodology, enumeration techniques, exploit mechanics, 
 ## 🔬 Practical Notes, Commands & Proof of Exploit
 
 
-Usually it is a best practice to check the history of the commands ran when u get into a machine
+Usually it is a best practice to check the history of the commands ran when you get into a machine
 Even looking at bash history is a good thing 
 
 ```bash
@@ -31,7 +31,7 @@ In the vid
 We already got the password here only
 
 Another way to go about this is by using linpeas
-Specifically going  on the linpeas pg on github and goin to the section where the stored passwords are there and using their commands
+Specifically going  on the linpeas pg on github and going to the section where the stored passwords are there and using their commands
 Ofcourse running the whole linpeas is grt
 
 somtimes the passwords are stored in plain text in the ovpn file

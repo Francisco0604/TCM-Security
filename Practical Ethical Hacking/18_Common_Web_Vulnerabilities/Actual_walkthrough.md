@@ -30,7 +30,7 @@ This led to us being able to do xss
 
 
 Did the same in review 
-This is a stored xss which is way more dangerouse
+This is a stored xss which is way more dangerous
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/270_Actual_walkthrough_1cfd64c5-e0cb-8050-9872-f4efa913a3ca.png)
@@ -43,7 +43,7 @@ Found an entry point for sql injection in url
 ![Lab Execution Screenshot / Proof of Exploit](./assets/271_Actual_walkthrough_1cfd64c5-e0cb-802b-9f27-e32229ec6522.png)
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
-Found username and hashes of paasword from here
+Found username and hashes of password from here
 
 Used hashcat to crack the password
 

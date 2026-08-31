@@ -48,7 +48,7 @@ set privillage to debug
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 
-If can disable antivirus this is a very very powerful atk
+If can disable antivirus this is a very very powerful attack
 
 
 

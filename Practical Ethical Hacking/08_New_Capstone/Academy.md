@@ -42,10 +42,10 @@ After getting shell allivate your privilages
 
 Set up a python http server
 
-go to temp directory on the shell which u got and wget the file to allivate privilage
+go to temp directory on the shell which you got and wget the file to allivate privilage
 
 if we want validation that a cronjob is running and we are not getting it with the basic commands use pspy
-download the pspy64 bit on ur deive and then run it on the target machine
+download the pspy64 bit on your deive and then run it on the target machine
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/043_Academy_1c4d64c5-e0cb-80b9-a44f-e9077d096f08.png)

@@ -57,7 +57,7 @@ Downloaded a reverse shel
 
 got shell on target but no sudo privilage
 
-now to escalate privilage i downloaded [linpeas.sh](http://linpeas.sh/) amd thn host a python http server
+now to escalate privilage i downloaded [linpeas.sh](http://linpeas.sh/) amd then host a python http server
 
 
 

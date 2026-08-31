@@ -14,7 +14,7 @@ This document details the practical methodology, tooling, exploitation chain, an
 ## 🔬 Hands-On Walkthrough & Technical Evidence
 
 Google is your best friend 
-Evn after using all info gathering tools u can use google
+Evn after using all info gathering tools you can use google
 
 site:tesla.com   : This will give you the results of all sites of tesla.com
 

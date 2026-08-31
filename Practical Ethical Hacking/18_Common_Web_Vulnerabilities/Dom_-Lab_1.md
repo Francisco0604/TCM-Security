@@ -23,7 +23,7 @@ When type and execute the following to check if it is vulnerable
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 It will not execute
-This is because evn tho the code is being added to the page it isnt being called, if this was partof the page when it  was loaded thn it would have loaded
+This is because evn tho the code is being added to the page it isnt being called, if this was partof the page when it  was loaded then it would have loaded
 
 
 ```javascript

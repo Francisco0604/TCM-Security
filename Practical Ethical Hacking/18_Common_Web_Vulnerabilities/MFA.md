@@ -13,7 +13,7 @@ This document details the practical methodology, tooling, exploitation chain, an
 
 ## 🔬 Hands-On Walkthrough & Technical Evidence
 
-We get the same log in and this time we are given a username and password and told to atk another username
+We get the same log in and this time we are given a username and password and told to attack another username
 We first enter own credentials, and we are then given a code to enter to log in
 
 The first few things which comes to mind is 

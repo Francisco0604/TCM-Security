@@ -65,7 +65,7 @@ Found this on port 8080
 
 
 Found a cve for this 
-( but i din know how to run so saw some vids in 1 i saw that if u just the file with python it will u what what is required,  ps: read the code dumbass)
+( but i din know how to run so saw some vids in 1 i saw that if you just the file with python it will you what what is required,  ps: read the code dumbass)
 Had to fix some things in the code (like the buffer= 0 is removed in python 3. and then had to decode a string to utf-8
 After running the exploit got this
 
@@ -82,7 +82,7 @@ There are two files we see when we log in there
 ![Privilege Escalation Proof Screenshot](./assets/046_Tomghost_1e4d64c5-e0cb-8073-b86b-efd5443bee09.png)
 *Figure: Privilege Escalation Proof Screenshot*
 
-We try to read this there but couldnt 
+We try to read this there but couldn't 
 So we transfer this to our machine
 
 ```bash

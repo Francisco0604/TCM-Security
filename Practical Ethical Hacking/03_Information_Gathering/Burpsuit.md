@@ -1,20 +1,20 @@
-# 🛡️ Burpsuit
+# 🛡️ Burp Suite
 
 > **Course:** [Practical Ethical Hacking](../../README.md)  
 > **Module:** [Information Gathering](./README.md)  
-> **Navigation Path:** `Practical Ethical Hacking > Information Gathering > Burpsuit`
+> **Navigation Path:** `Practical Ethical Hacking > Information Gathering > Burp Suite`
 
 ---
 
 ## 🎯 Executive Summary & Technical Objectives
-This document details the practical methodology, tooling, exploitation chain, and defensive remediation for **Burpsuit** as conducted in the TCM Security lab environment.
+This document details the practical methodology, tooling, exploitation chain, and defensive remediation for **Burp Suite** as conducted in the TCM Security lab environment.
 
 ---
 
 ## 🔬 Hands-On Walkthrough & Technical Evidence
 
 It is a web proxy, it means that it has the ability to intercept traffic for us
-Gathering info from burp community is passive, by clciking sites while keeping proxy on
+Gathering info from burp community is passive, by clicking sites while keeping proxy on
 
 
 

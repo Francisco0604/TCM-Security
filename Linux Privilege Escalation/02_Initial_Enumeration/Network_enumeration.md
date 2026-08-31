@@ -40,7 +40,7 @@ To identify what ports are open and what communications exist
 netstat -ano
 ```
 (hacker mind : when see 2 machine communicating try to find and exploit which can use against them )
-Another thing we want to identify is if there are any open ports that we did not pick up on earlier and what are they doin
+Another thing we want to identify is if there are any open ports that we did not pick up on earlier and what are they doing
 
 
 

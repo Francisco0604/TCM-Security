@@ -42,7 +42,7 @@ we get Website Found on this
 If notice carefully can see that the ‘ ; ‘ is missing in the target even though we searched for it
 so what is happening is it is filtering out the semi colons 
 
-To get the proper response of this we will have to set up a webserver (can use netcat or webhooks.site, jst do not use webhooks in an actual bug bounty or pentest because we do not wnt to leak data)
+To get the proper response of this we will have to set up a webserver (can use netcat or webhooks.site, just do not use webhooks in an actual bug bounty or pentest because we do not wnt to leak data)
 
 Then can try to insert a command with “backticks”
 

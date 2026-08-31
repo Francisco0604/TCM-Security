@@ -14,7 +14,7 @@ This document details the practical methodology, tooling, exploitation chain, an
 ## 🔬 Hands-On Walkthrough & Technical Evidence
 
 Sister of bloodhound
-Search it on google wil get github pg of it go there copy tht to the opt folder
+Search it on google wil get github pg of it go there copy that to the opt folder
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/116_Domain_Enumeration_with_Plumhound_1c7d64c5-e0cb-80e6-8c02-c7c9500e50f6.png)

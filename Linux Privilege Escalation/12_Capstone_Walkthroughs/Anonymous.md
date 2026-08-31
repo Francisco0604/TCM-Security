@@ -95,7 +95,7 @@ To get all the files
 ```bash
 mget *
 ```
-It will ask u if u wnt to get each file one after the other (jst type yes)
+It will ask you if you wnt to get each file one after the other (just type yes)
 
 the [clean.sh](http://clean.sh/) file seemed like an execuable which was running everymin
 So edited that

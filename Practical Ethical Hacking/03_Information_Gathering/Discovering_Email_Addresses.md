@@ -20,7 +20,7 @@ This document details the practical methodology, tooling, exploitation chain, an
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 
-After signing in with google u get more information 
+After signing in with google you get more information 
 eg. Checking in which department who works n no blur
 
 
@@ -50,7 +50,7 @@ it has to be used in chrome.
 It is a chrome extension which offers a lot of success
 
 1. [tools.verifyemailaddres.io](http://4.tools.verifyemailaddres.io/) (emailhippo)
-u can use this to verify email addresses
+you can use this to verify email addresses
 
 
 

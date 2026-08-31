@@ -42,7 +42,7 @@ run the ntlmrelap first then the mitm6
 -6 is for ipv6
 -t for target
 -wh for wpad (WPAD is a protocol that allows devices on a network to automatically discover and configure proxy settings.)
-Tht fakewpad is our choice we can put anything there 
+That fakewpad is our choice we can put anything there 
 -l is for loot it will create a folder
 
 When someone logs in it will create a new user for us 

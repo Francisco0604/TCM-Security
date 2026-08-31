@@ -13,21 +13,21 @@ This document details the practical methodology, tooling, exploitation chain, an
 
 ## 🔬 Hands-On Walkthrough & Technical Evidence
 
-If hash cant b cracked, can use smb replay if it is enabled or target machine to ain access
+If hash can't b cracked, can use smb replay if it is enabled or target machine to gain access
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/088_SMB_Relay_Attacks_Overview_1c6d64c5-e0cb-80ac-b9a7-cdb831eece17.png)
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 
-We can use nmap to check the snb port. We are mainly looking for “ Message siging enabled but not required “ . This can be used as a proof of concept as well
+We can use nmap to check the SMB port. We are mainly looking for “ Message siging enabled but not required “ . This can be used as a proof of concept as well
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/089_SMB_Relay_Attacks_Overview_1c6d64c5-e0cb-80ad-8f02-d98000b3125f.png)
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 
-Rember we had said everything below should be on, But for this attack we need the snb and http to be off because we jst dont need tht to captured but we want to relay them 
+Rember we had said everything below should be on, But for this attack we need the SMB and http to be off because we just dont need that to captured but we want to relay them 
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/090_SMB_Relay_Attacks_Overview_1c6d64c5-e0cb-8059-bc63-eba5df82c008.png)
@@ -49,7 +49,7 @@ Set up relay
 
 When responder catches a hash it will forward that to this 
 
-Make an evnt to occur
+Make an event to occur
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/093_SMB_Relay_Attacks_Overview_1c6d64c5-e0cb-803d-b92f-c21251de9ea7.png)

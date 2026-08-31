@@ -13,7 +13,7 @@ This document details the practical methodology, tooling, exploitation chain, an
 
 ## 🔬 Hands-On Walkthrough & Technical Evidence
 
-We should enable snb sign-in in all devices
+We should enable SMB sign-in in all devices
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/099_SMB_Relay_Attack_Defenses_1c6d64c5-e0cb-8085-adc1-c2bf49efb769.png)

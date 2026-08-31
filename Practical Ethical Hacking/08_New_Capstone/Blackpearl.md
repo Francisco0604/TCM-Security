@@ -20,14 +20,14 @@ directory busting
 ![Lab Execution Screenshot / Proof of Exploit](./assets/056_Blackpearl_1c5d64c5-e0cb-8049-9b89-db99e34bb73c.png)
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
-use -d otherwise wont work
+use -d otherwise won't work
 
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/057_Blackpearl_1c5d64c5-e0cb-80f2-a3a9-f4076f3d3a9f.png)
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
-We do this to say tht balckpeal allocates to tht ip address thn dns will do its magic
+We do this to say that balckpeal allocates to that ip address then dns will do its magic
 
 close and open the site on the browser again 
 
@@ -36,7 +36,7 @@ close and open the site on the browser again
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 
-do directory busting again using ffuf but this time use the name of the website which u saved in etc hosts 
+do directory busting again using ffuf but this time use the name of the website which you saved in etc hosts 
 
 type navigate cms exploit on google
 Trying metasploit in vid can do manual as well

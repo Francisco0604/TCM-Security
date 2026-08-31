@@ -41,7 +41,7 @@ The user can be any fake name
 ptt stands for pass the ticket 
 id stands for the r id (admin acct of 500)
 
-So we are goin to generate the ticket the pass the ticket to the nxt/current session and then we wil use it to open a command promt and tht will be able to acess any computer
+So we are going to generate the ticket the pass the ticket to the nxt/current session and then we wil use it to open a command promt and that will be able to acess any computer
 
 can type the following to open command promt
 misc :: cmd 

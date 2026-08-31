@@ -13,10 +13,10 @@ This document details the practical methodology, tooling, exploitation chain, an
 
 ## 🔬 Hands-On Walkthrough & Technical Evidence
 
-Identify the host with snb enabled but not required
+Identify the host with SMB enabled but not required
 Put the ip addresses in the target file
-Change responder.conf file and siwtch off snb n http
-can verify tht they r off by running responder
+Change responder.conf file and siwtch off SMB n http
+can verify that they r off by running responder
 then
 
 

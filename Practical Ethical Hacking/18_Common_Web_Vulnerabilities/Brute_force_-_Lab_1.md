@@ -35,7 +35,7 @@ We then try the same attack with ffuf
 We copy the request from burp and then put the keyword FUZZ 
 Use the same word list
 Use —request proto http
-After tht 
+After that 
 We use the fs filter to filter by size to find the other response 
 
 

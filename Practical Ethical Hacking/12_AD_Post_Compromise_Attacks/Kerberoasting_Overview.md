@@ -30,7 +30,7 @@ We can use the following tool to point our username and passowrd to the domain c
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 
-It will spit out a long hash, We can take tht hash and try to brk it
+It will spit out a long hash, We can take that hash and try to brk it
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/147_Kerberoasting_Overview_1c9d64c5-e0cb-805e-afed-d0c1e784cd95.png)

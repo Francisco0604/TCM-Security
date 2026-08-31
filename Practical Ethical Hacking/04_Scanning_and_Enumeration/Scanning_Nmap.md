@@ -39,7 +39,7 @@ Whenn scanning its always a good idea to scan alll the ports
 
 -A this scans for everything (version info, os info etc) combination of (-sV , -sC, -O and traceroute)
 
--sU this a udp scan, udp takes long time to scan so usualy jst scan the top 1000 
+-sU this a udp scan, udp takes long time to scan so usualy just scan the top 1000 
 
 Next step is to check the version info and see if there are in vulnerabilities present for them
 

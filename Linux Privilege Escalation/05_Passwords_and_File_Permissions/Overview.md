@@ -14,7 +14,7 @@ This section covers the methodology, enumeration techniques, exploit mechanics, 
 ## 🔬 Practical Notes, Commands & Proof of Exploit
 
 
-We are goin to look at few different escalation paths 
+We are going to look at few different escalation paths 
 Stored passwords (which we hunted in the enumeration section)
 Weak file permissions
 ssh keys

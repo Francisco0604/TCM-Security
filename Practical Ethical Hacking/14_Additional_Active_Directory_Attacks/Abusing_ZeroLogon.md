@@ -22,7 +22,7 @@ dirkjanm CVE-2020-1472 - [https://github.com/dirkjanm/CVE-2020-1472](https://git
 SecuraBV ZeroLogon Checker - [https://github.com/SecuraBV/CVE-2020-1472](https://github.com/SecuraBV/CVE-2020-1472)
 
 You can run the checker to see if the target is vulnerable and that is it
-In a real pentest do not do anything further as it would probably wipe out the domain if udk wha tu are doin
+In a real pentest do not do anything further as it would probably wipe out the domain if udk wha tu are doing
 
 Useuage is given
 
@@ -45,7 +45,7 @@ Use secrets dump to dump out secrets of the machine
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 
-The atk is done now
+The attack is done now
 
 to restore
 Take the administrator hash
@@ -55,7 +55,7 @@ Take the administrator hash
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 
-This is what we are goin to use to restore the dc
+This is what we are going to use to restore the dc
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/195_Abusing_ZeroLogon_1cbd64c5-e0cb-80ed-b2e1-fde3d6839e4f.png)

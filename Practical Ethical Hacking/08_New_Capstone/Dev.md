@@ -37,11 +37,11 @@ Discovered on port 8080
 
 
 use ffuf to enumerate directories on both http ports
-finding directory listing can b a finding
+finding directory listing can be a finding
 connected to the nfs server
 used showmount 
-thn mount (somehow i couldnt do it)
-used fcrakzip to crack the password of the zip file got frm the nfs server
+then mount (somehow i couldn't do it)
+used fcrackzip to crack the password of the zip file got from the nfs server
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/048_Dev_1c5d64c5-e0cb-802c-9584-e075a5d7da8e.png)
@@ -53,7 +53,7 @@ used fcrakzip to crack the password of the zip file got frm the nfs server
 ![Lab Execution Screenshot / Proof of Exploit](./assets/049_Dev_1c5d64c5-e0cb-80c0-80f5-e97323844c50.png)
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
-The id_rsa file can b used to connect through ssh
+The id_rsa file can be used to connect through ssh
 
 
 ![Lab Execution Screenshot / Proof of Exploit](./assets/050_Dev_1c5d64c5-e0cb-802d-b6ca-e01c100b0bd6.png)

@@ -37,7 +37,7 @@ Metasploit is a bit noisy and in a real time enviroment there is a chance it mig
 *Figure: Lab Execution Screenshot / Proof of Exploit*
 
 
-We can use [psexec.py](http://psexec.py/) It wont get detected as much
+We can use [psexec.py](http://psexec.py/) It won't get detected as much
 
 with password
 

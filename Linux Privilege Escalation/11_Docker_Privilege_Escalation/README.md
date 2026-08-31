@@ -107,7 +107,7 @@ Got access to the machine
 
 Used the gtfobins to find docker shell exploit 
 found
-Elevated to root after using it (jst had to change some alibaba thing to bash)
+Elevated to root after using it (just had to change some alibaba thing to bash)
 
 
 

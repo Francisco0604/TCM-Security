@@ -43,7 +43,7 @@ This will return all the cloumn names in the database
 Sometimes you will get an error when using null cause the first column might b integer or smtng 
 we can use
 null (int)
-If tht does not work can try jst basic numbers like 1,2,3 and jst play around and c if anything works
+If that does not work can try just basic numbers like 1,2,3 and just play around and c if anything works
 
 
 
