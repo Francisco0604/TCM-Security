@@ -4,15 +4,19 @@
 ![Linux Security](https://img.shields.io/badge/OS-Linux%20Hardening-yellow.svg)
 ![Privilege Escalation](https://img.shields.io/badge/PrivEsc-Local%20Elevation%20%28LPE%29-red.svg)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-Privilege%20Escalation-blue.svg)
-![Status](https://img.shields.io/badge/Coursework-100%25%20Complete-brightgreen.svg)
+![Status](https://img.shields.io/badge/Coursework-Completed%20Track-brightgreen.svg)
 
 ---
 
 ## 📜 Executive Summary & Author Proof Statement
 
-This repository contains the complete, hands-on technical write-ups, vulnerability mechanics, and defensive hardening strategies completed as part of **TCM Security's Linux Privilege Escalation** curriculum.
+This repository contains the technical write-ups, vulnerability mechanics, and defensive hardening strategies completed as part of **TCM Security's Linux Privilege Escalation** curriculum.
 
-The documentation covers every practical vector required to escalate from a low-privileged system shell to full `root` administrative compromise on Linux systems:
+> [!NOTE]
+> **Note on Documentation Progression:**  
+> Earlier modules reflect earlier stages of learning and practical note-taking, and are being progressively revised and expanded to current documentation standards.
+
+The documentation covers practical vectors required to escalate from a low-privileged system shell to full `root` administrative compromise on Linux systems:
 1. **Manual & Automated System Enumeration** (*OS architecture, environment, listening ports, process tracking with `pspy`*)
 2. **Kernel Exploitation** (*Dirty COW, PwnKit, OverlayFS, compiling local exploits*)
 3. **Password & Credential Exposure** (*Config scraping, `/etc/passwd` & `/etc/shadow` misconfigurations, unencrypted SSH keys*)

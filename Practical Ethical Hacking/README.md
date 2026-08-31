@@ -5,15 +5,19 @@
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-Enterprise%20Exploitation-blue.svg)
 ![Web Security](https://img.shields.io/badge/Web%20App-OWASP%20Top%2010-orange.svg)
 ![Network Pentesting](https://img.shields.io/badge/Network-Recon%20%26%20Exploitation-green.svg)
-![Status](https://img.shields.io/badge/Coursework-100%25%20Complete-brightgreen.svg)
+![Status](https://img.shields.io/badge/Coursework-Completed%20Track-brightgreen.svg)
 
 ---
 
 ## 📜 Executive Summary & Author Proof Statement
 
-This repository contains the complete, end-to-end technical documentation, attack methodologies, lab proofs, and capstone assessments completed as part of **TCM Security's Practical Ethical Hacking (PEH)** curriculum.
+This repository contains the technical documentation, attack methodologies, lab proofs, and capstone assessments completed as part of **TCM Security's Practical Ethical Hacking (PEH)** curriculum.
 
-The documentation is organized to demonstrate rigorous technical competency across:
+> [!NOTE]
+> **Note on Documentation Progression:**  
+> Earlier modules reflect earlier stages of learning and practical note-taking, and are being progressively revised and expanded to current documentation standards.
+
+The documentation is organized to demonstrate practical competency across:
 1. **Network Reconnaissance & Vulnerability Assessment**
 2. **Web Application Penetration Testing (OWASP Top 10)**
 3. **Active Directory Enterprise Exploitation & Privilege Escalation**
@@ -22,8 +26,8 @@ The documentation is organized to demonstrate rigorous technical competency acro
 6. **Professional Pentest Reporting, Scoping & Legal Frameworks**
 
 > [!IMPORTANT]
-> **Proof of Practical Competency:**  
-> All 21 modules, hands-on lab exercises, and 5 standalone capstone machines (**Blue**, **Academy**, **Dev**, **Butler**, **Blackpearl**) were solved and documented with exact command rationale, terminal outputs, root-cause vulnerability analyses (CVE/CWE), and defensive remediation steps.
+> **Practical Competency & Lab Coverage:**  
+> All 21 modules, hands-on lab exercises, and 5 standalone capstone machines (**Blue**, **Academy**, **Dev**, **Butler**, **Blackpearl**) are documented with tool rationale, terminal outputs, root-cause vulnerability analyses (CVE/CWE), and defensive remediation steps.
 
 ---
 

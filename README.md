@@ -6,14 +6,18 @@
 
 Welcome to the **TCM Security** offensive and defensive cybersecurity repository. This repository serves as a centralized hub for hands-on course write-ups, enterprise lab walkthroughs, Active Directory attack graphs, web security assessments, privilege escalation methodologies, and capstone machine proofs of work completed across **TCM Security** training tracks.
 
+> [!NOTE]
+> **Note on Documentation Progression:**  
+> Earlier modules reflect earlier stages of learning and practical note-taking, and are being progressively revised and expanded to current documentation standards.
+
 ---
 
 ## 📚 Courses & Certification Tracks
 
 | Course / Certification Path | Description | Status |
 |---|---|---|
-| 📂 [**Practical Ethical Hacking (PEH)**](./Practical%20Ethical%20Hacking/README.md) | Flagship ethical hacking curriculum: 21 modules covering Networking, OSINT, Scanning, Active Directory (Initial $\rightarrow$ Domain Compromise), Web App Pentesting, Wireless, and 5 Capstone Machines. | ✅ **100% Complete** (138 Write-Ups & 280+ Proofs) |
-| 📂 [**Linux Privilege Escalation**](./Linux%20Privilege%20Escalation/README.md) | Comprehensive local privilege escalation curriculum: 12 modules covering System Enumeration, Kernel Exploits, Sudo Misconfigurations (`LD_PRELOAD`), SUID Binaries, POSIX Capabilities, Cron Wildcards, NFS `no_root_squash`, Docker Escapes, and 3 Capstone Machines. | ✅ **100% Complete** (45 Write-Ups & 48 Proofs) |
+| 📂 [**Practical Ethical Hacking (PEH)**](./Practical%20Ethical%20Hacking/README.md) | Flagship ethical hacking curriculum: 21 modules covering Networking, OSINT, Scanning, Active Directory (Initial $\rightarrow$ Domain Compromise), Web App Pentesting, Wireless, and 5 Capstone Machines. | ✅ **Completed Track** (Notes & Lab Proofs) |
+| 📂 [**Linux Privilege Escalation**](./Linux%20Privilege%20Escalation/README.md) | Comprehensive local privilege escalation curriculum: 12 modules covering System Enumeration, Kernel Exploits, Sudo Misconfigurations (`LD_PRELOAD`), SUID Binaries, POSIX Capabilities, Cron Wildcards, NFS `no_root_squash`, Docker Escapes, and 3 Capstone Machines. | ✅ **Completed Track** (Notes & Lab Proofs) |
 | 📂 **OSINT (Open Source Intelligence)** | *Search engine dorking, sock puppets, image/EXIF analysis, geolocation, and credential exposure analysis.* | 🔄 *In Progress / Upcoming* |
 | 📂 **Practical Bug Bounty** | *Web vulnerability research, recon automation, API security, and vulnerability disclosure programs.* | 🔄 *In Progress / Upcoming* |
 
