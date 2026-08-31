@@ -1,17 +1,4 @@
-# 🛡️ System enumeration
-
-> **Course Track:** [Linux Privilege Escalation](../../README.md)  
-> **Module:** [Initial enumeration](./README.md)  
-> **Topic Path:** `Linux Privilege Escalation > Initial enumeration > System enumeration`
-
----
-
-## 🎯 Technical Overview & Objectives
-This section covers the methodology, enumeration techniques, exploit mechanics, and defensive mitigations for **System enumeration**.
-
----
-
-## 🔬 Practical Notes, Commands & Proof of Exploit
+# System enumeration
 
 
 To check the hostname
@@ -51,11 +38,4 @@ To check what services are running
 
 
 ---
-
-## 🛡️ Defensive Hardening & Remediation
-- **Audit & Restrict Permissions:** Review `/etc/sudoers`, remove unnecessary SUID/SGID flags (`chmod u-s`), and enforce strict file ownership on configuration files.
-- **Kernel Patching:** Regularly apply distribution security updates to mitigate known local privilege escalation (LPE) vulnerabilities.
-- **Principle of Least Privilege:** Avoid running non-administrative daemon processes as `root` and isolate services using containers/namespaces.
-
----
-[⬅ Back to Initial enumeration](./README.md) • [🏠 Master Course Index](../README.md)
+[Back to Initial enumeration](./README.md)

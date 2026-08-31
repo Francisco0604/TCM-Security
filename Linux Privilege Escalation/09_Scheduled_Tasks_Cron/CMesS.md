@@ -1,27 +1,14 @@
-# 🛡️ CMesS
-
-> **Course Track:** [Linux Privilege Escalation](../../README.md)  
-> **Module:** [Scheduled tasks](./README.md)  
-> **Topic Path:** `Linux Privilege Escalation > Scheduled tasks > CMesS`
-
----
-
-## 🎯 Technical Overview & Objectives
-This section covers the methodology, enumeration techniques, exploit mechanics, and defensive mitigations for **CMesS**.
-
----
-
-## 🔬 Practical Notes, Commands & Proof of Exploit
+# CMesS
 
 THM box
 ip = 10.10.30.433
 
-1. Manual enumeration  Went to site and saw a search bar
-  tried to enter basic html,command,sql and xss injection, it failed.
-  Apache server 2.4.18 (webpalizer)
+1. Manual enumerationWent to site and saw a search bar
+tried to enter basic html,command,sql and xss injection, it failed.
+Apache server 2.4.18 (webpalizer)
 
-1. namp  port 22 OpenSSH 7.2p2
-  port 80 Apache httpd 2.4.18  
+1. nampport 22 OpenSSH 7.2p2
+port 80 Apache httpd 2.4.18  
 
 1. Directory enumeration0                   
 01                    
@@ -60,8 +47,8 @@ tmp
 ```bash
 ffuf -w /usr/share/wordlists/dnsmap.txt -u http://cmess.thm -H "Host: FUZZ.cmess.thm" -fs 3877
 ```
-  Found dev only
-  Wrote this in /etc/host
+Found dev only
+Wrote this in /etc/host
 
 Manually went to dev.cmess.thm
 
@@ -77,11 +64,4 @@ Saw the crontab, and found out that there is a process running every 2 mins and 
 
 
 ---
-
-## 🛡️ Defensive Hardening & Remediation
-- **Audit & Restrict Permissions:** Review `/etc/sudoers`, remove unnecessary SUID/SGID flags (`chmod u-s`), and enforce strict file ownership on configuration files.
-- **Kernel Patching:** Regularly apply distribution security updates to mitigate known local privilege escalation (LPE) vulnerabilities.
-- **Principle of Least Privilege:** Avoid running non-administrative daemon processes as `root` and isolate services using containers/namespaces.
-
----
-[⬅ Back to Scheduled tasks](./README.md) • [🏠 Master Course Index](../README.md)
+[Back to Scheduled tasks](./README.md)

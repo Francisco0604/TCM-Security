@@ -1,17 +1,4 @@
-# 🛡️ Cron & Timers Overview
-
-> **Course Track:** [Linux Privilege Escalation](../../README.md)  
-> **Module:** [Scheduled tasks](./README.md)  
-> **Topic Path:** `Linux Privilege Escalation > Scheduled tasks > Cron & Timers Overview`
-
----
-
-## 🎯 Technical Overview & Objectives
-This section covers the methodology, enumeration techniques, exploit mechanics, and defensive mitigations for **Cron & Timers Overview**.
-
----
-
-## 🔬 Practical Notes, Commands & Proof of Exploit
+# Cron & Timers Overview
 
 My input
 If get cron jobs which are executed every 5 mins or something try to put a malacious script in it and check if can escalate priv
@@ -34,11 +21,4 @@ Key Features
 
 
 ---
-
-## 🛡️ Defensive Hardening & Remediation
-- **Audit & Restrict Permissions:** Review `/etc/sudoers`, remove unnecessary SUID/SGID flags (`chmod u-s`), and enforce strict file ownership on configuration files.
-- **Kernel Patching:** Regularly apply distribution security updates to mitigate known local privilege escalation (LPE) vulnerabilities.
-- **Principle of Least Privilege:** Avoid running non-administrative daemon processes as `root` and isolate services using containers/namespaces.
-
----
-[⬅ Back to Scheduled tasks](./README.md) • [🏠 Master Course Index](../README.md)
+[Back to Scheduled tasks](./README.md)

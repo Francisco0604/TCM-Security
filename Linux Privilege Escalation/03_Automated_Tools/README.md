@@ -1,18 +1,10 @@
-# 📁 Exploring automated tools
+# Exploring automated tools
 
-> **Curriculum:** TCM Security — Linux Privilege Escalation  
-> **Module Description:** Deploying and analyzing LinPEAS, LinEnum, Linux Exploit Suggester (LES), and pspy realtime process monitoring.
-
----
-
-## 🎯 Learning Objectives & Methodology
-Mastering **Exploring automated tools** involves understanding both the attacker's path to root elevation and the system administrator's hardening requirements.
+LinPEAS, LinEnum, Linux Exploit Suggester (LES), and pspy process monitor.
 
 ---
 
 
-
-## 📝 Core Documentation & Lab Notes
 
 
 Resources for this video:
@@ -24,4 +16,4 @@ Linux Priv Checker - [https://github.com/sleventyeleven/linuxprivchecker](https:
 
 
 ---
-[⬅ Back to Linux Privilege Escalation Master Index](../README.md)
+[Back to Linux Privilege Escalation Index](../README.md)

@@ -1,23 +1,10 @@
-# 📁 Active directory case studies
+# Active directory case studies
 
-> **Curriculum:** TCM Security — Practical Ethical Hacking (PEH)  
-> **Module Description:** Real-world enterprise network breach case studies, lateral movement analysis, and defensive remediations.
-
----
-
-## 🎯 Module Overview & Learning Outcomes
-This module provides practical, hands-on methodology and field-tested offensive techniques for **Active directory case studies**. 
-
-### 🛠️ Key Tools & Technologies Used
-- Specialized exploitation, scanning, and enumeration toolkits.
-- Command-line syntax, packet captures, and proof-of-concept demonstrations.
-- Defensive detection signatures and hardening strategies.
+Real-world AD breach case studies and attack paths.
 
 ---
 
 
-
-## 📝 Core Module Documentation & Notes
 
 1 :
 Resources:
@@ -32,4 +19,4 @@ Resources:
 
 
 ---
-[⬅ Back to Master Course Index](../README.md)
+[Back to Practical Ethical Hacking Index](../README.md)

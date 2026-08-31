@@ -1,18 +1,10 @@
-# 📁 NFS Root Squashing
+# NFS Root Squashing
 
-> **Curriculum:** TCM Security — Linux Privilege Escalation  
-> **Module Description:** Exploiting no_root_squash misconfigurations in /etc/exports by creating remote SUID root payloads.
-
----
-
-## 🎯 Learning Objectives & Methodology
-Mastering **NFS Root Squashing** involves understanding both the attacker's path to root elevation and the system administrator's hardening requirements.
+NFS no_root_squash misconfigurations, remote SUID root shell creation.
 
 ---
 
 
-
-## 📝 Core Documentation & Lab Notes
 
 
 
@@ -24,10 +16,7 @@ Check for folders with no root squash
 
 then we do this
 
-
-![Privilege Escalation Proof Screenshot](./assets/030_NFS_Root_Squashing_1d7d64c5-e0cb-80a1-a707-cb97f27e5fac.png)
-*Figure: Privilege Escalation Proof Screenshot*
-
+![Screenshot](./assets/030_NFS_Root_Squashing_1d7d64c5-e0cb-80a1-a707-cb97f27e5fac.png)
 
 then we give it +s by using chmod 
 then we just need to execute that file
@@ -37,4 +26,4 @@ And we are root
 
 
 ---
-[⬅ Back to Linux Privilege Escalation Master Index](../README.md)
+[Back to Linux Privilege Escalation Index](../README.md)

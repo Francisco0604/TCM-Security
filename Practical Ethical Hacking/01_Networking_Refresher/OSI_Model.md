@@ -1,24 +1,8 @@
-# 🛡️ OSI Model
-
-> **Course:** [Practical Ethical Hacking](../../README.md)  
-> **Module:** [Networking Refresher](./README.md)  
-> **Navigation Path:** `Practical Ethical Hacking > Networking Refresher > OSI Model`
-
----
-
-## 🎯 Executive Summary & Technical Objectives
-This document details the practical methodology, tooling, exploitation chain, and defensive remediation for **OSI Model** as conducted in the TCM Security lab environment.
-
----
-
-## 🔬 Hands-On Walkthrough & Technical Evidence
+# OSI Model
 
 
 
-
-![Lab Execution Screenshot / Proof of Exploit](./assets/004_OSI_Model_1bfd64c5-e0cb-800a-9eb2-eecf52f2b138.png)
-*Figure: Lab Execution Screenshot / Proof of Exploit*
-
+![Screenshot](./assets/004_OSI_Model_1bfd64c5-e0cb-800a-9eb2-eecf52f2b138.png)
 
 The OSI (Open Systems Interconnection) model is a 
 conceptual framework that standardizes the functions of a communication 
@@ -64,14 +48,5 @@ OSI model remains a useful reference for understanding network
 communication and protocols.
 
 
-
-
 ---
-
-## 🛡️ Defensive Hardening & Detection Signatures
-- **Monitoring & Auditing:** Enable granular auditing for process creation (Windows Event ID 4688 / Sysmon Event 1) and network connections (Sysmon Event 3).
-- **Least Privilege:** Enforce strict principle of least privilege across user accounts and service configurations.
-- **Continuous Validation:** Conduct routine vulnerability scanning and automated configuration reviews to identify drift.
-
----
-[⬅ Back to Networking Refresher](./README.md) • [🏠 Master Course Index](../README.md)
+[Back to Networking Refresher](./README.md)

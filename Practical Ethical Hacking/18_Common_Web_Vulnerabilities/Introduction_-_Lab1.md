@@ -1,17 +1,4 @@
-# 🛡️ Introduction - Lab1
-
-> **Course:** [Practical Ethical Hacking](../../README.md)  
-> **Module:** [Common Web Vulnerabilities](./README.md)  
-> **Navigation Path:** `Practical Ethical Hacking > Common Web Vulnerabilities > Introduction - Lab1`
-
----
-
-## 🎯 Executive Summary & Technical Objectives
-This document details the practical methodology, tooling, exploitation chain, and defensive remediation for **Introduction - Lab1** as conducted in the TCM Security lab environment.
-
----
-
-## 🔬 Hands-On Walkthrough & Technical Evidence
+# Introduction - Lab1
 
 It is very serious vulnerability because if we find it we can compromise the entire application or host
 
@@ -19,17 +6,11 @@ How this works?
 The application takes input from user and puts it in a function and executes it as a code 
 
 
-
-![Lab Execution Screenshot / Proof of Exploit](./assets/238_Introduction_-_Lab1_1cdd64c5-e0cb-8044-9c32-f867ef4e0deb.png)
-*Figure: Lab Execution Screenshot / Proof of Exploit*
-
+![Screenshot](./assets/238_Introduction_-_Lab1_1cdd64c5-e0cb-8044-9c32-f867ef4e0deb.png)
 
 This a wiki of notes of the thin guy of tcm sec (alex olsen ig)
 
-
-![Lab Execution Screenshot / Proof of Exploit](./assets/239_Introduction_-_Lab1_1cdd64c5-e0cb-8073-9095-fd74f86cbc45.png)
-*Figure: Lab Execution Screenshot / Proof of Exploit*
-
+![Screenshot](./assets/239_Introduction_-_Lab1_1cdd64c5-e0cb-8073-9095-fd74f86cbc45.png)
 [https://appsecexplained.gitbook.io/appsecexplained](https://appsecexplained.gitbook.io/appsecexplained)
 
 
@@ -96,14 +77,5 @@ The page is hung while loading it is a good sign, usually you will get a shell o
 
 
 
-
-
 ---
-
-## 🛡️ Defensive Hardening & Detection Signatures
-- **Monitoring & Auditing:** Enable granular auditing for process creation (Windows Event ID 4688 / Sysmon Event 1) and network connections (Sysmon Event 3).
-- **Least Privilege:** Enforce strict principle of least privilege across user accounts and service configurations.
-- **Continuous Validation:** Conduct routine vulnerability scanning and automated configuration reviews to identify drift.
-
----
-[⬅ Back to Common Web Vulnerabilities](./README.md) • [🏠 Master Course Index](../README.md)
+[Back to Common Web Vulnerabilities](./README.md)

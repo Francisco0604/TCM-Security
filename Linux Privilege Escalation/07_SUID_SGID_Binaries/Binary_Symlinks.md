@@ -1,17 +1,4 @@
-# 🛡️ Binary Symlinks
-
-> **Course Track:** [Linux Privilege Escalation](../../README.md)  
-> **Module:** [SUID](./README.md)  
-> **Topic Path:** `Linux Privilege Escalation > SUID > Binary Symlinks`
-
----
-
-## 🎯 Technical Overview & Objectives
-This section covers the methodology, enumeration techniques, exploit mechanics, and defensive mitigations for **Binary Symlinks**.
-
----
-
-## 🔬 Practical Notes, Commands & Proof of Exploit
+# Binary Symlinks
 
 Resources for this video:
 Nginx Exploit - [https://legalhackers.com/advisories/Nginx-Exploit-Deb-Root-PrivEsc-CVE-2016-1247.html](https://legalhackers.com/advisories/Nginx-Exploit-Deb-Root-PrivEsc-CVE-2016-1247.html)
@@ -36,10 +23,7 @@ For this to work we need the suid bit set on sudo
 find / -type f -perm -04000 -ls 2>/dev/null
 ```
 
-
-![Privilege Escalation Proof Screenshot](./assets/014_Binary_Symlinks_1d5d64c5-e0cb-8083-848f-d0cf65db527c.png)
-*Figure: Privilege Escalation Proof Screenshot*
-
+![Screenshot](./assets/014_Binary_Symlinks_1d5d64c5-e0cb-8083-848f-d0cf65db527c.png)
 
 Futhermore we need to check the log file 
 
@@ -48,10 +32,7 @@ ls -ls /var/log/nginx
 ```
 We need to have read write and execute
 
-
-![Privilege Escalation Proof Screenshot](./assets/015_Binary_Symlinks_1d5d64c5-e0cb-80d9-bacb-cf52d8f2962f.png)
-*Figure: Privilege Escalation Proof Screenshot*
-
+![Screenshot](./assets/015_Binary_Symlinks_1d5d64c5-e0cb-80d9-bacb-cf52d8f2962f.png)
 
 Now we can use a symlink to replace the log files with a malicious file
 How to do it?
@@ -75,11 +56,4 @@ And then we get a shell
 
 
 ---
-
-## 🛡️ Defensive Hardening & Remediation
-- **Audit & Restrict Permissions:** Review `/etc/sudoers`, remove unnecessary SUID/SGID flags (`chmod u-s`), and enforce strict file ownership on configuration files.
-- **Kernel Patching:** Regularly apply distribution security updates to mitigate known local privilege escalation (LPE) vulnerabilities.
-- **Principle of Least Privilege:** Avoid running non-administrative daemon processes as `root` and isolate services using containers/namespaces.
-
----
-[⬅ Back to SUID](./README.md) • [🏠 Master Course Index](../README.md)
+[Back to SUID](./README.md)

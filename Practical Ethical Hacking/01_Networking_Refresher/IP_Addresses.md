@@ -1,17 +1,4 @@
-# 🛡️ IP Addresses
-
-> **Course:** [Practical Ethical Hacking](../../README.md)  
-> **Module:** [Networking Refresher](./README.md)  
-> **Navigation Path:** `Practical Ethical Hacking > Networking Refresher > IP Addresses`
-
----
-
-## 🎯 Executive Summary & Technical Objectives
-This document details the practical methodology, tooling, exploitation chain, and defensive remediation for **IP Addresses** as conducted in the TCM Security lab environment.
-
----
-
-## 🔬 Hands-On Walkthrough & Technical Evidence
+# IP Addresses
 
 Ipv4 is represented in decimal format
 ipv6 is represented in hexadecimal format
@@ -21,10 +8,7 @@ Total Ipv4 addresses which are available are 2^32 (4294967296)
 
 Following are some examples of Ipv4 primate addresses 
 
-
-![Lab Execution Screenshot / Proof of Exploit](./assets/001_IP_Addresses_1bfd64c5-e0cb-80e0-8ddd-d3ac2af6e869.png)
-*Figure: Lab Execution Screenshot / Proof of Exploit*
-
+![Screenshot](./assets/001_IP_Addresses_1bfd64c5-e0cb-80e0-8ddd-d3ac2af6e869.png)
 Most common households and small businesses use the Class C where as a very big company will use the Class A
 This all private addresses traffic goes out through the IP address rented through the isp 
 This how we solved the main problem of shortage of ipv4 addresses
@@ -37,14 +21,5 @@ The transition from IPv4 to IPv6 is necessary due to the depletion of available 
 In summary, IPv4 and IPv6 are versions of the Internet Protocol that provide unique addresses to devices on a network. IPv4 addresses are 32-bit, while IPv6 addresses are 128-bit. IPv6 offers a larger address space and additional features compared to IPv4.
 
 
-
-
 ---
-
-## 🛡️ Defensive Hardening & Detection Signatures
-- **Monitoring & Auditing:** Enable granular auditing for process creation (Windows Event ID 4688 / Sysmon Event 1) and network connections (Sysmon Event 3).
-- **Least Privilege:** Enforce strict principle of least privilege across user accounts and service configurations.
-- **Continuous Validation:** Conduct routine vulnerability scanning and automated configuration reviews to identify drift.
-
----
-[⬅ Back to Networking Refresher](./README.md) • [🏠 Master Course Index](../README.md)
+[Back to Networking Refresher](./README.md)
